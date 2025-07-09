@@ -8,7 +8,7 @@ with open("planetas.json", "r", encoding="utf-8") as f:
 env = Environment(loader=FileSystemLoader("templates"))
 template = env.get_template("planeta.html")
 
-output_dir = "output"
+output_dir = "docs"
 os.makedirs(output_dir, exist_ok=True)
 
 for clave, datos in planetas.items():
