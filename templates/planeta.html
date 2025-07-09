@@ -58,7 +58,18 @@
   <div class="section-divider"></div>
 
   <!-- Galería -->
-  <section class="gallery-section">    
+  <section class="gallery-section">
+    <!-- Sección de video -->
+    <section class="section video-section">
+      <h2 class="video-title text-{{ planeta.color.texto }}">Descubre más sobre {{ planeta.nombre }}</h2>
+      <div class="video-container">
+        <iframe 
+          src="https://www.youtube.com/embed/{{ planeta.video_id }}" 
+          title="Video sobre {{ planeta.nombre }}"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </section>
     <div class="container">
       <h2 class="text-{{ planeta.color.principal }} fade-in">Todos Aportamos</h2>
       <p class="fade-in">Galería de dibujos sobre {{ planeta.nombre }}</p>
