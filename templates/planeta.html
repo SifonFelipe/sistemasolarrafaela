@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ planeta.nombre }} - Sistema Solar</title>
+  <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body class="space-bg">
+
+  <!-- Título -->
+  <header>
+    <h1 class="text-{{ planeta.color.principal }}">{{ planeta.nombre }}</h1>
+    <p class="text-{{ planeta.color.secundario }}">{{ planeta.minifrase }}</p>
+  </header>
+
+  <!-- Imagen del planeta -->
+  <div class="planet-image-container">
+    <div>
+      <img src="../static/{{ planeta.imagen }}" alt="{{ planeta.nombre }}">
+    </div>
+  </div>
+
+  <!-- Descripción General -->
+  <section class="section">
+    <div class="info-card">
+      <h2 class="text-{{ planeta.color.texto }}">Descripción General...</h2>
+      <p>{{ planeta.descripcion }}</p>
+    </div>
+  </section>
+
+  <!-- Datos principales -->
+  <div class="section">
+    <div class="info-card datos-principales">
+      <h2 class="text-{{ planeta.color.texto }}">Datos principales</h2>
+      <div class="datos-grid">
+        {% for clave, valor in planeta.datos.items() %}
+        <div class="dato-item">
+          <p class="dato-label">{{ clave }}</p>
+          <p class="dato-value">{{ valor }}</p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <!-- Sección ¿Sabías que...? -->
+  <section class="section sabias-section">
+    <div class="info-card">
+      <h2 class="text-{{ planeta.color.texto }}">¿Sabías que...?</h2>
+      {% for idx, frase in planeta.sabias.items() %}
+      <p>{{ frase }}</p>
+      {% endfor %}
+    </div>
+  </section>
+
+  <!-- Divisor -->
+  <div class="section-divider"></div>
+
+  <!-- Galería -->
+  <section class="gallery-section">    
+    <div class="container">
+      <h2 class="text-{{ planeta.color.principal }} fade-in">Todos Aportamos</h2>
+      <p class="fade-in">Galería de dibujos sobre {{ planeta.nombre }}</p>
+      
+      <div class="gallery-grid">
+        {% for i in range(1, 7) %}
+        <div class="gallery-item">
+          <img src="../static/images/example.jpg" alt="Dibujo{{ i }}">
+          <p>Dibujo{{ i }}</p>
+        </div>
+        {% endfor %}
+      </div>
+      
+      <div class="gallery-footer">
+        <p>¿Quieres que tu dibujo aparezca aquí? Envíanos tu trabajo a <span class="text-{{ planeta.color.principal }}">dibujos@sistemasolar.edu</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Navegación -->
+  <div class="navigation">
+    <a href="index.html" class="nav-button text-{{ planeta.color.texto }}">Inicio</a>
+    <a href="{{ planeta.siguiente_html }}" class="nav-button text-{{ planeta.color.texto }}">{{ planeta.siguiente_nombre }} →</a>
+  </div>
+
+  <!-- Script animaciones -->
+  <script src="../static/js/scroll.js"></script>
+</body>
+</html>
