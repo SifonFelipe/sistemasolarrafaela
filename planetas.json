@@ -4,6 +4,7 @@
       "minifrase": "La estrella que da vida a nuestro sistema",
       "imagen": "images/sol.jpg",
       "fuente_imagen": "NASA/SDO (AIA)",
+      "recortar_imagen": true,
       "datos": {
         "Diámetro": "1.392.000 km (55,72 cm a escala)"
       },
@@ -26,6 +27,7 @@
       "minifrase": "El pequeño veloz del sistema solar",
       "imagen": "images/mercurio.jpg",
       "fuente_imagen": "NASA/Johns Hopkins University Applied Physics Laboratory/Arizona State University/Carnegie Institution of Washington",
+      "recortar_imagen": true,
       "datos": {
         "Diámetro": "4.870 km (0,19 cm a escala)",
         "Distancia al Sol": "58.000.000 km (23.22 m a escala)"
@@ -48,6 +50,7 @@
       "minifrase": "El planeta del efecto invernadero extremo",
       "imagen": "images/venus.jpg",
       "fuente_imagen": "NASA/JPL",
+      "recortar_imagen": true,
       "datos": {
         "Diámetro": "12.103 km (0,48cm a escala)",
         "Distancia al Sol": "108.000.000 km (43.23 m a escala)"
@@ -70,6 +73,7 @@
       "minifrase": "Nuestro hogar en el universo",
       "imagen": "images/tierra.jpg",
       "fuente_imagen": "NASA/Tripulación de Apollo 17",
+      "recortar_imagen": true,
       "datos": {
         "Diámetro": "12.756 km (0,51cm a escala)",
         "Distancia al Sol": "150.000.000 km (60.04 m a escala)"
@@ -93,6 +97,7 @@
       "minifrase": "El planeta rojo y la búsqueda de vida",
       "imagen": "images/marte.jpg",
       "fuente_imagen": "NASA/JPL-Caltech",
+      "recortar_imagen": true,
       "datos": {
         "Diámetro": "6.786 km (0,27 cm a escala)",
         "Distancia al Sol": "228.000.000 km (91,26 m a escala)"
@@ -116,6 +121,7 @@
       "minifrase": "El gigante gaseoso del Sistema Solar",
       "imagen": "images/jupiter.jpeg",
       "fuente_imagen": "NASA, ESA, y A. Simon (Goddard Space Flight Center)",
+      "recortar_imagen": true,
       "datos": {
         "Diámetro": "142.984 km (5,72 cm a escala)",
         "Distancia al Sol": "778.000.000 km (311,41 m a escala)"
@@ -138,6 +144,7 @@
       "minifrase": "El señor de los anillos",
       "imagen": "images/saturno.jpg",
       "fuente_imagen": "NASA",
+      "recortar_imagen": false,
       "datos": {
         "Diámetro": "120.536 km (4.82 cm a escala)",
         "Distancia al Sol": "1.427.000.000 km (571,18 m a escala)"
@@ -160,6 +167,7 @@
       "minifrase": "El planeta inclinado",
       "imagen": "images/urano.jpg",
       "fuente_imagen": "NASA",
+      "recortar_imagen": true,
       "datos": {
         "Diámetro": "51.118 km (2,05 cm a escala)",
         "Distancia al Sol": "2.871.000.000 km (1149,17 m a escala)"
@@ -182,6 +190,7 @@
       "minifrase": "El gigante azul y ventoso",
       "imagen": "images/neptuno.jpg",
       "fuente_imagen": "NASA",
+      "recortar_imagen": true,
       "datos": {
         "Diámetro": "49.528 km (1,98 cm a escala)",
         "Distancia al Sol": "4.497.000.000 km (1800 m a escala)"
