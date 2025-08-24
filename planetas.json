@@ -115,16 +115,16 @@
       "nombre": "Júpiter",
       "minifrase": "El gigante gaseoso del Sistema Solar",
       "imagen": "images/jupiter.jpeg",
-      "fuente_imagen": "NASA",
+      "fuente_imagen": "NASA, ESA, y A. Simon (Goddard Space Flight Center)",
       "datos": {
         "Diámetro": "142.984 km (5,72 cm a escala)",
         "Distancia al Sol": "778.000.000 km (311,41 m a escala)"
       },
-      "descripcion": "Júpiter es el planeta más grande de nuestro sistema, un gigante gaseoso famoso por su Gran Mancha Roja, una tormenta que ha persistido durante siglos.",
+      "descripcion": "Júpiter es el planeta más grande de nuestro sistema, un gigante gaseoso famoso por su Gran Mancha Roja, una tormenta que ha persistido durante siglos. A diferencia de los planetas anteriores, Júpiter no tiene una superficie sólida, sino que está compuesto principalmente por gases: hidrógeno y helio.",
       "sabias": [
-        "Tiene una gran mancha roja: una tormenta que dura siglos.",
-        "Posee más de 90 lunas conocidas.",
-        "Tiene un sistema de anillos delgado."
+        "Su gran mancha roja es una tormenta que tiene siglos de antigüedad, y es más grande que todo nuestro planeta Tierra!",
+        "Posee más de 90 lunas conocidas: 4 de ellas son gigantes y se llaman galileanas (Io, Europa, Ganimedes y Calisto).",
+        "Tiene un sistema de anillos muy, muy delgados, que fueron descubiertos recién en 1979 cuando la sonda Voyager 1 visitó el planeta."
       ],
       "color": {
         "principal": "orange-700",
