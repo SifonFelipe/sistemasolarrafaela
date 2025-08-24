@@ -67,9 +67,9 @@
     },
     "tierra": {
       "nombre": "Tierra",
-      "minifrase": "Nuestro hogar en el cosmos",
+      "minifrase": "Nuestro hogar en el universo",
       "imagen": "images/tierra.jpg",
-      "fuente_imagen": "NASA",
+      "fuente_imagen": "NASA/Tripulación de Apollo 17",
       "datos": {
         "Diámetro": "12.756 km (0,51cm a escala)",
         "Distancia al Sol": "150.000.000 km (60.04 m a escala)"
@@ -77,8 +77,9 @@
       "descripcion": "La Tierra es nuestro planeta, el único conocido con vida, caracterizado por su agua líquida, atmósfera protectora y la diversidad de sus ecosistemas.",
       "sabias": [
         "La Tierra es el único planeta conocido que alberga vida.",
-        "El 71% de su superficie está cubierta de agua.",
-        "Tiene un solo satélite natural: la Luna."
+        "Casi tres cuartos de su superficie están cubiertos de agua.",
+        "Tiene un solo satélite natural, la Luna, y miles satélites artificiales que la humanidad ha puesto en órbita alrededor suyo.",
+        "Esta foto de la Tierra fue tomada desde el espacio por la tripulación de el último viaje a la Luna (Apollo 17, en 1972), y es conocida como 'La canica azul'."
       ],
       "color": {
         "principal": "blue-400",
