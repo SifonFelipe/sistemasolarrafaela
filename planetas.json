@@ -150,7 +150,10 @@
         "secundario": "orange-600",
         "texto": "orange-600"
       },
-      "todos_aportamos": []
+      "todos_aportamos": [
+        {"tipo": "imagenes", "path": "todos_aportamos/jupiter/fotos"},
+        {"tipo": "videos", "path": "todos_aportamos/jupiter/videos"}
+      ]
     },
     "saturno": {
       "nombre": "Saturno",
@@ -173,7 +176,11 @@
         "secundario": "yellow-300",
         "texto": "yellow-400"
       },
-      "todos_aportamos": []
+      "todos_aportamos": [
+        {"tipo": "videos", "path": "todos_aportamos/saturno/videos"},
+        {"tipo": "galeria", "path": "todos_aportamos/saturno/imagenes_juego"},
+        {"tipo": "galeria", "path": "todos_aportamos/saturno/imagenes_proyecto"}
+      ]
     },
     "urano": {
       "nombre": "Urano",
@@ -196,7 +203,10 @@
         "secundario": "blue-300",
         "texto": "blue-300"
       },
-      "todos_aportamos": []
+      "todos_aportamos": [
+        {"tipo": "imagenes", "path": "todos_aportamos/urano/fotos"},
+        {"tipo": "videos", "path": "todos_aportamos/urano/videos"}
+      ]
     },
     "neptuno": {
       "nombre": "Neptuno",
