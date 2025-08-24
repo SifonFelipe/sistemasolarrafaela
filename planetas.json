@@ -166,17 +166,17 @@
       "nombre": "Urano",
       "minifrase": "El planeta inclinado",
       "imagen": "images/urano.jpg",
-      "fuente_imagen": "NASA",
+      "fuente_imagen": "NASA/JPL-Caltech/Kevin M. Gill",
       "recortar_imagen": true,
       "datos": {
         "Diámetro": "51.118 km (2,05 cm a escala)",
         "Distancia al Sol": "2.871.000.000 km (1149,17 m a escala)"
       },
-      "descripcion": "Urano es un gigante de hielo conocido por su peculiar inclinación axial extrema, que hace que gire casi de lado con respecto a su órbita.",
+      "descripcion": "Urano es un gigante gaseoso y muy frío, conocido por su peculiar inclinación extrema, que hace que gire casi de lado con respecto a su órbita.",
       "sabias": [
-        "Gira de lado, con su eje casi horizontal.",
-        "Tiene anillos oscuros y tenues.",
-        "Posee al menos 27 lunas."
+        "Su eje de rotación es casi perpendicular a su órbita, como si fuese \"rodando\" de costado.",
+        "Es el planeta más frío del sistema solar, con temperaturas que pueden bajar hasta -224 °C.",
+        "Tiene anillos oscuros y muy tenues, y al menos 27 lunas conocidas."
       ],
       "color": {
         "principal": "blue-400",
