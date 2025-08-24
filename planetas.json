@@ -195,11 +195,11 @@
         "Diámetro": "49.528 km (1,98 cm a escala)",
         "Distancia al Sol": "4.497.000.000 km (1800 m a escala)"
       },
-      "descripcion": "Neptuno es el planeta más distante conocido del Sol, caracterizado por sus fuertes vientos y su color azul profundo, que lo hacen un mundo misterioso y fascinante.",
+      "descripcion": "Neptuno es el planeta más distante conocido del Sol (Plutón, más lejano, no es actualmente considerado un planeta). Se caracteriza por sus fuertes vientos y su color azul profundo, que lo hacen un mundo misterioso y fascinante.",
       "sabias": [
-        "Tiene los vientos más rápidos del sistema solar.",
+        "Tiene los vientos más rápidos del sistema solar: alcanzan hasta 2.100 km/h!",
         "Tritón, su luna más grande, orbita en dirección opuesta.",
-        "Fue descubierto por predicciones matemáticas, no observación directa."
+        "Fue descubierto por predicciones matemáticas, no observación directa: científicos predijeron su existencia por las perturbaciones en la órbita de Urano, y luego de hacer los cálculos apuntaron sus telescopios al lugar predicho, y encontraron Neptuno."
       ],
       "color": {
         "principal": "indigo-400",
