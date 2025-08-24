@@ -124,7 +124,10 @@
         "secundario": "red-300",
         "texto": "red-300"
       },
-      "todos_aportamos": []
+      "todos_aportamos": [
+        {"tipo": "imagenes", "path": "todos_aportamos/marte/fotos"},
+        {"tipo": "videos", "path": "todos_aportamos/marte/videos"}
+      ]
     },
     "jupiter": {
       "nombre": "Júpiter",
