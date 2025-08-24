@@ -8,12 +8,11 @@
       },
       "descripcion": "El Sol es el centro de nuestro Sistema Solar, una estrella que provee luz y calor a todos los planetas. Su inmensidad es difícil de comprender, pero este modelo a escala ayuda a visualizar su tamaño en comparación con el resto de los cuerpos celestes.",
       "sabias": [
-          "Si pudiéramos colocar 1.3 millones de Tierras dentro del Sol, ¡aún quedaría espacio!",
-          "El Sol tiene más de 4 mil millones de años de antigüedad, y se estima que seguirá brillando por otros 5 mil millones de años más.",
-          "El Sol es una esfera casi perfecta de plasma caliente que proporciona la energía necesaria para la vida en la Tierra.",
-          "La luz del Sol tarda aproximadamente 8 minutos y 20 segundos en llegar a la Tierra, viajando a 300.000 km/s."
-        ]
-      },
+        "Si pudiéramos colocar 1.3 millones de Tierras dentro del Sol, ¡aún quedaría espacio!",
+        "El Sol tiene más de 4 mil millones de años de antigüedad, y se estima que seguirá brillando por otros 5 mil millones de años más.",
+        "El Sol es una esfera casi perfecta de plasma caliente que proporciona la energía necesaria para la vida en la Tierra.",
+        "La luz del Sol tarda aproximadamente 8 minutos y 20 segundos en llegar a la Tierra, viajando a 300.000 km/s."
+      ],
       "color": {
         "principal": "orange-400",
         "secundario": "orange-200",
