@@ -98,7 +98,9 @@
         "secundario": "blue-300",
         "texto": "blue-300"
       },
-      "todos_aportamos": []
+      "todos_aportamos": [
+        {"tipo": "galeria", "path": "todos_aportamos/tierra/imagenes_prezi"}
+      ]
     },
     "marte": {
       "nombre": "Marte",
