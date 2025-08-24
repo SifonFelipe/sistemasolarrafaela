@@ -21,7 +21,7 @@ Para deployar esos htmls actualizados, simplemente pushear al branch `main` del 
 
 # Otra info útil
 
-Para achicar los archivos, se usó esto desde un shell de python (y teniendo instalado ffmpeg):
+Para achicar los videos, se usó esto desde un shell de python (y teniendo instalado ffmpeg):
 
 ```python
 def achicar(video_path):
@@ -36,4 +36,10 @@ def achicar_muchos(dir_path):
         achicar(str(f))
 
 achicar_muchos("./un_path_con_videos_dentro")
+```
+
+Para achicar las imágenes, se usó esto desde un shell de linux (a veces con más de una corrida, y tocando la extensión):
+
+```bash
+find . -name "*.jpg" | xargs mogrify -resize 50%
 ```
