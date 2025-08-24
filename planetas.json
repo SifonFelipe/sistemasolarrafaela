@@ -92,16 +92,17 @@
       "nombre": "Marte",
       "minifrase": "El planeta rojo y la búsqueda de vida",
       "imagen": "images/marte.jpg",
-      "fuente_imagen": "NASA",
+      "fuente_imagen": "NASA/JPL-Caltech",
       "datos": {
         "Diámetro": "6.786 km (0,27 cm a escala)",
         "Distancia al Sol": "228.000.000 km (91,26 m a escala)"
       },
-      "descripcion": "Marte, el 'planeta rojo', ha sido objeto de fascinación por su potencial para albergar vida y sus características geológicas que lo hacen similar a la Tierra en algunos aspectos.",
+      "descripcion": "Marte, el 'planeta rojo', ha sido objeto de fascinación por su potencial para albergar vida y sus características geológicas que lo hacen similar a la Tierra en algunos aspectos. Debido a ello la humanidad ha enviado numerosas misiones para estudiarlo, todas ellas no tripuladas.",
       "sabias": [
-        "Tiene el volcán más grande del sistema solar: Olympus Mons.",
-        "Podría haber albergado vida en el pasado.",
-        "Tiene dos lunas pequeñas: Fobos y Deimos."
+        "Tiene el volcán más grande del sistema solar: Olympus Mons. Es casi tres veces más alto que el Monte Everest!",
+        "Podría haber albergado vida en el pasado, ya que hace millones de años tenía agua líquida en su superficie y una atmósfera similar a la Tierra.",
+        "Tiene dos lunas pequeñas: Fobos y Deimos.",
+        "Es el único planeta habitado exclusivamente por robots (enviados por la humanidad)."
       ],
       "color": {
         "principal": "red-400",
