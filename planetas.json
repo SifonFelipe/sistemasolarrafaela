@@ -47,7 +47,7 @@
       "nombre": "Venus",
       "minifrase": "El planeta del efecto invernadero extremo",
       "imagen": "images/venus.jpg",
-      "fuente_imagen": "NASA",
+      "fuente_imagen": "NASA/JPL",
       "datos": {
         "Diámetro": "12.103 km (0,48cm a escala)",
         "Distancia al Sol": "108.000.000 km (43.23 m a escala)"
@@ -55,8 +55,8 @@
       "descripcion": "Venus es conocido por su densa atmósfera y un efecto invernadero descontrolado que lo convierte en uno de los lugares más calientes del Sistema Solar.",
       "sabias": [
           "Venus tiene una atmósfera densa de dióxido de carbono que genera un efecto invernadero extremo.",
-          "Un día en Venus es más largo que su año.",
-          "Gira en dirección opuesta a la mayoría de los planetas."
+          "Un día en Venus es más largo que su año, de forma muy similar a Mercurio.",
+          "Venus gira sobre su eje en dirección opuesta a la mayoría de los planetas!"
       ],
       "color": {
         "principal": "yellow-400",
