@@ -20,7 +20,10 @@
         "secundario": "orange-200",
         "texto": "orange-300"
       },
-      "todos_aportamos": []
+      "todos_aportamos": [
+        {"tipo": "imagenes", "path": "todos_aportamos/sol/fotos"},
+        {"tipo": "videos", "path": "todos_aportamos/sol/videos"}
+      ]
     },
     "mercurio": {
       "nombre": "Mercurio",
