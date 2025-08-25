@@ -6,7 +6,8 @@
       "fuente_imagen": "NASA/SDO (AIA)",
       "recortar_imagen": true,
       "datos": {
-        "Diámetro": "1.392.000 km (55,72 cm a escala)"
+        "Diámetro": "1.392.000 km (55,72 cm a escala)",
+        "Edad": "4.600 millones de años"
       },
       "descripcion": "El Sol es el centro de nuestro Sistema Solar, una estrella que provee luz y calor a todos los planetas. Su inmensidad es difícil de comprender, pero este modelo a escala ayuda a visualizar su tamaño en comparación con el resto de los cuerpos celestes.",
       "sabias": [
