@@ -19,8 +19,9 @@
   <div class="planet-image-container">
     <div>
       {% if planeta.recortar_imagen == True %}
-      <img src="./static/{{ planeta.imagen }}" alt="{{ planeta.nombre }}">
+      <img src="./static/{{ planeta.imagen }}" style="border-radius: 50%;" alt="{{ planeta.nombre }}">
       {% else %}
+      <img src="./static/{{ planeta.imagen }}" alt="{{ planeta.nombre }}">
       {% endif %}
     </div>
   </div>

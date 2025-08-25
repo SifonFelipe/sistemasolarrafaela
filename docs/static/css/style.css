@@ -45,9 +45,9 @@ header p {
 }
 
 .planet-image-container img {
-  width: 13rem;
-  height: 13rem;
-  border-radius: 50%;
+  width: 15rem;
+  height: 15rem;
+  object-fit: contain; /* usa contain o cover */
 }
 
 /* Secciones generales */
