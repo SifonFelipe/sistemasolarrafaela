@@ -73,7 +73,7 @@
         "texto": "yellow-300"
       },
       "todos_aportamos": [
-        {"tipo": "videos", "path": "todos_aportamos/venus/videos"}
+        {"tipo": "imagenes", "path": "todos_aportamos/venus/fotos"}
       ]
     },
     "tierra": {
