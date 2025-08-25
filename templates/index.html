@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema Solar - Índice</title>
+  <link rel="stylesheet" href="./static/css/style.css">
+</head>
+<body class="space-bg">
+
+  <header>
+    <h1>Explora el Sistema Solar</h1>
+    <p>Selecciona un planeta para aprender más</p>
+  </header>
+
+  <main class="planet-grid">
+    {% for key, planeta in planetas.items() %}
+    <div class="planet-card">
+      <div class="planet-thumb">
+        <img src="./static/{{ planeta.imagen }}" 
+             alt="{{ planeta.nombre }}"
+             class="{% if planeta.recortar_imagen %}circle{% endif %}">
+      </div>
+      <h2>{{ planeta.nombre }}</h2>
+      <p class="planet-minifrase">{{ planeta.minifrase }}</p>
+      <a href="{{ key }}.html" class="planet-button">Ver más</a>
+    </div>
+    {% endfor %}
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <p>Créditos de imágenes: <span class="credit-text">NASA / ESA / Comunidad</span></p>
+      <p class="footer-small">© 2025 Sistema Solar Educativo</p>
+      <p class="footer-small">Contacto: fisadev@gmail.com</p>
+    </div>
+  </footer>
+
+</body>
+</html>
