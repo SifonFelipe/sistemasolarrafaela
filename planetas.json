@@ -100,7 +100,8 @@
         "texto": "blue-300"
       },
       "todos_aportamos": [
-        {"tipo": "imagenes", "path": "todos_aportamos/tierra/imagenes_prezi"}
+        {"tipo": "galeria", "path": "todos_aportamos/tierra/imagenes_prezi"},
+        {"tipo": "galeria", "path": "todos_aportamos/tierra/imagenes_libro"}
       ]
     },
     "marte": {
