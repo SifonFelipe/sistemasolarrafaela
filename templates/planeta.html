@@ -18,7 +18,10 @@
   <!-- Imagen del planeta -->
   <div class="planet-image-container">
     <div>
+      {% if planeta.recortar_imagen == True %}
       <img src="./static/{{ planeta.imagen }}" alt="{{ planeta.nombre }}">
+      {% else %}
+      {% endif %}
     </div>
   </div>
 
@@ -79,13 +82,6 @@
           <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
         <br>
-
-        <!-- The dots/circles -->
-        <div style="text-align:center">
-          {% for n in range(1, seccion.archivos|length + 1) %}
-          <span class="dot" onclick="currentSlide({{n}})"></span>
-          {% endfor %}
-        </div> 
         {% endif %}
 
         {% if seccion.tipo == "imagenes" and seccion.archivos %}
@@ -116,22 +112,28 @@
         </div>
         {% endif %}
       {% endfor %}
-      <!-- Mensaje para contribuir -->
-      <div class="contribute-section">
-        <div class="contribute-card">
-          <h3 class="text-{{ planeta.color.principal }}">¡Contribuye!</h3>
-          <p>¿Quieres que tu trabajo aparezca aquí? Envíanos tus dibujos, fotos o videos a:</p>
-          <p class="email text-{{ planeta.color.principal }}">contribuciones@sistemasolar.edu</p>
-        </div>
-      </div>
+
+    <!-- Navegación -->
+    <div class="navigation">
+      <a href="{{ planeta.anterior }}.html" class="nav-button text-{{ planeta.color.texto }}">← {{ planeta.anterior|capitalize }}</a>
+      <a href="index.html" class="nav-button text-{{ planeta.color.texto }}">Inicio</a>
+      <a href="{{ planeta.siguiente }}.html" class="nav-button text-{{ planeta.color.texto }}">{{ planeta.siguiente|capitalize }} →</a>
     </div>
   </section>
-
-  <!-- Navegación -->
-  <div class="navigation">
-    <a href="index.html" class="nav-button text-{{ planeta.color.texto }}">Inicio</a>
-    <a href="{{ planeta.siguiente_html }}" class="nav-button text-{{ planeta.color.texto }}">{{ planeta.siguiente_nombre }} →</a>
-  </div>
-
 </body>
+
+<footer class="site-footer">
+  <div class="footer-content">
+    <p>
+      Créditos de imágenes: 
+      <span class="credit-text">{{ planeta.fuente_imagen }}</span>
+    </p>
+    <p class="footer-small">
+      © {{ planeta.nombre }} - Sistema Solar Educativo · 2025
+    </p>
+    <p class="footer-small">
+      Contacto: fisadev@gmail.com
+    </p>
+  </div>
+</footer>
 </html>
