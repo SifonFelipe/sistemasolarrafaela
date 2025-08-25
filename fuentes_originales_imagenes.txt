@@ -1,0 +1,10 @@
+Sol: https://commons.wikimedia.org/wiki/File:The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg
+Mercurio: https://commons.wikimedia.org/wiki/File:Mercury_in_true_color.jpg
+Venus: https://commons.wikimedia.org/wiki/File:Venus_globe.jpg
+Tierra: https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg
+Júpiter: https://commons.wikimedia.org/wiki/File:Jupiter_and_its_shrunken_Great_Red_Spot.jpg
+Saturno: https://commons.wikimedia.org/wiki/File:Saturn_-_High_Resolution,_2004,_alt_crop.jpg
+Urano: https://commons.wikimedia.org/wiki/File:Uranus_-_January_22_1986_(26534993078).jpg
+Neptuno: https://commons.wikimedia.org/wiki/File:Neptune_Full.jpg
+
+logo: https://ideogram.ai/g/eGSETZpjRGa_7dTv7iwNCg/3
