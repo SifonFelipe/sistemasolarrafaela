@@ -43,7 +43,7 @@ class Carousel {
   autoPlay() {
     setInterval(() => {
       this.plusSlides(1);
-    }, 3000); // cada 3s
+    }, 10000); // cada 3s
   }
 }
 

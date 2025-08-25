@@ -433,3 +433,65 @@ header p {
   color: #fff;              /* texto blanco al pasar */
   transform: translateY(-2px); /* pequeño efecto de elevación */
 }
+
+.planet-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.planet-card {
+  background: rgba(0,0,0,0.5);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.planet-card:hover {
+  background: rgba(0,0,0,0.7);
+  transform: translateY(-4px);
+}
+
+.planet-thumb img {
+  width: 8rem;
+  height: 8rem;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.planet-thumb img.circle {
+  border-radius: 50%;
+}
+
+.planet-card h2 {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+  color: #fff;
+}
+
+.planet-minifrase {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-bottom: 1rem;
+}
+
+.planet-button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.planet-button:hover {
+  background-color: #fff;
+  color: #000;
+}
